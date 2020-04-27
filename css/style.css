@@ -8,19 +8,19 @@ body {
 }
 
 a:link {
-  color: #797471;
+  color: seashell;
 }
 
 a:visited {
-  color: #797471;
+  color: seashell;
 }
 
 a:hover {
-  color: #797471;
+  color: seashell;
 }
 
 a:active {
-  color: #797471;
+  color: seashell;
 }
 
 .flex-container {
@@ -35,7 +35,7 @@ header.flex-container {
   justify-content: space-between;
   height: 69px;
   align-items: center;
-  border-bottom: 2px solid #797471;
+  border-bottom: 2px solid seashell;
 }
 
 header.flex-container img {
@@ -80,16 +80,37 @@ nav {
 
 #store {
   width: 1000px;
-  margin: 0 auto;
+  margin: 60px auto;
 }
 
 .item {
   flex-direction: column;
   display: flex;
+  padding: 5px;
 }
 
 .item img {
   width: 300px;
   height: 200px;
   padding: 10px;
+}
+
+/* LOCATIONS */
+
+#locations {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.location {
+  flex-basis: 280px;
+  background-color: black;
+  margin: 5px 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 60px;
 }
