@@ -114,3 +114,17 @@ nav {
   justify-content: center;
   padding-top: 60px;
 }
+
+/* CONTACT */
+
+#contact {
+  height: 200px;
+}
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  margin-left: 20px;
+  justify-content: flex-start;
+}
