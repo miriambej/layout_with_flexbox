@@ -1,1 +1,52 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
 
+a:link {
+  color: #797471;
+}
+
+a:visited {
+  color: #797471;
+}
+
+a:hover {
+  color: #797471;
+}
+
+a:active {
+  color: #797471;
+}
+
+.flex-container {
+  display: flex;
+}
+
+/* HEADER */
+
+header.flex-container {
+  justify-content: space-between;
+  height: 69px;
+  align-items: center;
+}
+
+header.flex-container img {
+  padding-left: 10px;
+  height: 50px;
+}
+
+nav {
+  text-decoration: underline;
+  color: #797471;
+  justify-content: space-between;
+  width: 350px;
+  display: flex;
+  margin: 0 10px;
+}
+
+/* MISSION SECTION */
